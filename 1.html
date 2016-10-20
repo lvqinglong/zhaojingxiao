@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../1010/css/reset.css">
+    <style type="text/css">
+        body{
+            background-color: #f0f0f0;
+
+        }
+        .box{
+            display: flex;
+            margin: 100px auto;
+            width: 80px;
+            height: 80px;
+            background-color: #fff;
+            flex-wrap: wrap;
+           align-content: center;
+
+
+        }
+        span {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background-color: black;
+            border-radius:10px;
+        }
+        .span1{
+            width: 100%;
+            display: flex;
+        }
+        .span1:first-child,.span1:last-child{
+            justify-content: space-around;
+        }
+        .span1:nth-child(2){
+            justify-content: center;
+        }
+
+    </style>
+</head>
+<body>
+<div class="box">
+    <div class="span1">
+        <span></span>
+        <span></span>
+    </div>
+    <div class="span1">
+        <span></span>
+    </div>
+    <div class="span1">
+        <span></span>
+        <span></span>
+    </div>
+</div>
+<script type="text/javascript">
+</script>
+</body>
+</html>
